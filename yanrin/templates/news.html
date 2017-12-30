@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <h1 style="text-align:center">YANRIN</h1>
+    <br>
+    <h2 style="text-align:center">{{ date }}</h2>
+    <h3 style="text-align:justify">Top Topics for today:
+    {% for topic in topics %}
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/{{ date }}/{{ topic.name }}">{{ topic.name }}</a>
+    {% endfor %}
+    </h3>
+
+    <p>{{ summary }}</p>
+{% endblock %}
