@@ -10,3 +10,5 @@ TODO
 
 check for values in arrays correctly in postgres
 doc2vec and other types of algos
+
+New name: gudnus
