@@ -25,7 +25,7 @@ numpy==1.13.3
 pandas==0.21.1
 pluggy==0.6.0
 psycopg2==2.7.3.2
-py==1.5.2
+py==1.10.0
 pyenchant==2.0.0
 pyLDAvis==2.1.1
 pyparsing==2.2.0
